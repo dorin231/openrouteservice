@@ -152,7 +152,7 @@ ors:
             active_landmarks: 8
     profiles:
       car:
-        enabled: false
+        enabled: true
         profile: driving-car
         elevation: true
         encoder_options:
@@ -190,7 +190,7 @@ ors:
           RoadAccessRestrictions:
             use_for_warnings: true
       hgv:
-        enabled: false
+        enabled: true
         profile: driving-hgv
         encoder_flags_size: 8
         encoder_options:
@@ -222,7 +222,7 @@ ors:
             restrictions: true
           WaySurfaceType:
       bike-regular:
-        enabled: false
+        enabled: true
         profile: cycling-regular
         encoder_options:
           consider_elevation: true
@@ -235,7 +235,7 @@ ors:
           HillIndex:
           TrailDifficulty:
       bike-mountain:
-        enabled: false
+        enabled: true
         profile: cycling-mountain
         encoder_options:
           consider_elevation: true
@@ -248,7 +248,7 @@ ors:
           HillIndex:
           TrailDifficulty:
       bike-road:
-        enabled: false
+        enabled: true
         profile: cycling-road
         encoder_options:
           consider_elevation: true
@@ -261,7 +261,7 @@ ors:
           HillIndex:
           TrailDifficulty:
       bike-electric:
-        enabled: false
+        enabled: true
         profile: cycling-electric
         encoder_options:
           consider_elevation: true
@@ -274,7 +274,7 @@ ors:
           HillIndex:
           TrailDifficulty:
       walking:
-        enabled: false
+        enabled: true
         profile: foot-walking
         encoder_options:
           block_fords: false
@@ -285,7 +285,7 @@ ors:
           HillIndex:
           TrailDifficulty:
       hiking:
-        enabled: false
+        enabled: true
         profile: foot-hiking
         encoder_options:
           block_fords: false
@@ -296,7 +296,7 @@ ors:
           HillIndex:
           TrailDifficulty:
       wheelchair:
-        enabled: false
+        enabled: true
         profile: wheelchair
         encoder_options:
           block_fords: true
@@ -309,7 +309,7 @@ ors:
             KerbsOnCrossings: true
           OsmId:
       public-transport:
-        enabled: false
+        enabled: true
         profile: public-transport
         encoder_options:
           block_fords: false
